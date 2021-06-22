@@ -15,7 +15,7 @@ To support a wider variety of messages and get some extra coding practice we dec
 
   ## Implementation
   1. Program should decide if it gives out a Nonsensical Joke or a Fortune Message.
-  2. Have an random Index Generator which pickes out a random noun or verb from prebuilt arrays.
+  2. Have an random Index Generator which picks out a random noun or verb from prebuilt arrays.
   3. Assemble the Message and print it to the console.
 
 ### Languages and tools used

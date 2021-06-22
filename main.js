@@ -37,3 +37,15 @@ console.log(jokeMessage());
 console.log(jokeMessage());
 console.log(jokeMessage());
 console.log(jokeMessage());
+
+//*In 5 days* you will *meet* *your future husband*
+const fortuneMessage = () => {
+    const timeframe = ['Tomorrow', 'In 3 days', 'Next week', 'Next month', 'Next year']
+    const action = ['meet', 'lose', 'find']
+    const outcome = ['your future husband', 'your next job', 'dream home', 'your riches']
+
+    return `${getRandElement(timeframe)} you will ${getRandElement(action)} ${getRandElement(outcome)}.`
+}
+console.log(fortuneMessage())
+console.log(fortuneMessage())
+console.log(fortuneMessage())
